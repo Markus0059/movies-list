@@ -1,0 +1,21 @@
+.banner {
+  height: 500px;
+  background-size: cover;
+  object-fit: scale-down;
+}
+
+.banner .container {
+  h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 16px;
+  }
+
+  p {
+    color: aliceblue;
+    position: relative;
+    left: 60%;
+    top: 80px;
+
+  }
+}

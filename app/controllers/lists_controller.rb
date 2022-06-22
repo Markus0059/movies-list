@@ -21,13 +21,6 @@ class ListsController < ApplicationController
     end
   end
 
-  def update
-
-  end
-
-  def delete
-
-  end
 
   private
 

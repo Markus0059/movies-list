@@ -1,0 +1,11 @@
+<div class="navbar-lewagon navbar-collapse d-flex">
+  <div>
+    <%= link_to root_path do %>
+      <%= image_tag "food.jpg", style: "height: 30px; width: 30px", alt: "alttext", class: "logo" %>
+    <% end %>
+  </div>
+  <div class="link-navbar">
+    <%= link_to " All my lists ", root_path, class: "button-navbar"%>
+    <%= link_to " New list ", new_list_path, class: "button-navbar"%>
+  </div>
+</div>

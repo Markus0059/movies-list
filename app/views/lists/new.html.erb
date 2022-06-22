@@ -2,7 +2,8 @@
 <div class="container">
   <h3>Create a new list</h3>
     <%= simple_form_for @list do |f| %>
-      <%= f.input :name, placeholder: 'Drama' %>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
       <%= f.input :photo, as: :file %>
       <%= f.submit class: 'btn btn-primary' %>
     <% end %>
